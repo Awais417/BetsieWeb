@@ -31,7 +31,7 @@ const handleSubmit = async (e) => {
     setMessageType("")
     try {
       // Use environment variable for API URL, fallback to localhost for development
-      const apiUrl ="http://16.16.24.205:3002"
+      const apiUrl ="http://13.61.183.201:3002"
      const response = await fetch(`${apiUrl}/users/reset-password`, {
         method: "POST",
         headers: {

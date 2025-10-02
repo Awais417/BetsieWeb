@@ -38,7 +38,7 @@ export default function DeleteAccountPage() {
     setIsError(false); // Reset error state for new attempt
 
     try {
-      const res = await fetch(`http://16.16.24.205:3002/users/confirm-delete?token=${token}`, {
+      const res = await fetch(`http://13.61.183.201:3002/users/confirm-delete?token=${token}`, {
         method: "GET",
       });
 
